@@ -1,0 +1,131 @@
+a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+body {
+    background-image: url("../images/CPU.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font: 1.2em "roboto", serif;
+    
+    height: 100%;
+}
+
+.body-div {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    display: grid;
+    opacity: 0.80;
+}
+
+.header {
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    opacity: 0.80;
+}
+
+.header-gauche {
+    float: left;
+}
+
+.header-bas {
+    color: white;
+    display: inline-block;
+}
+
+.titre-portfolio {
+    color: orange;
+}
+
+.titreCouleur {
+    color: #27bebe;
+}
+
+.listeLiens {
+    list-style: none;
+}
+
+.col-gauche {
+    border-radius: 20px;
+    opacity: 0.80;
+}
+
+.col-text {
+    background-color: black;
+    border-radius: 20px;
+    opacity: 0.80;
+}
+
+#icone-gmail {
+    margin-right: 3px;
+    color: white;
+    width:30px
+}
+
+#icone-facebook {
+    margin-right: 3px;
+    color: white;
+    width:40px
+}
+
+#icone-linkedin {
+    margin-right: 3px;
+    width:30px
+}
+
+#icone-tel {
+    margin-right: 3px;
+    width: 30px;
+}
+
+.lienAProposDeMoi {
+    
+}
+
+.listesAPropos {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px
+    width: 150px;
+}
+
+.listesAPropos > li > a {
+    background: #000;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.listesAPropos ul:active {
+    height: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: all .5s ease;
+    top: 35px;
+    width: 100%;
+}
+
+.listesAPropos li:hover ul {
+  /*  height: 200px;
+    opacity: 1;
+    transform: translate(50px, 20px);*/
+/*    color: rgb(var(--txt,var(--color_15)));
+    transition: var(--trans,color .4s ease 0s);
+    display: inline-block;
+    padding: 0 10px;*/
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    margin-left: 10% /*!important;*/
+}
